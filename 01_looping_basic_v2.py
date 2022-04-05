@@ -11,7 +11,7 @@ while not valid:
             valid = True
 
         else:
-            print("please enter a number that is more than zero")
+            print(error)
             print() 
 
     except ValueError:
